@@ -51,10 +51,7 @@ export default function Navbar() {
       <div className="nav-main">
         <a className="logo" href="#home" onClick={(e) => handleNavClick(e, "#home")}>
           <Image src="/logo-91bikes.jpg" alt="+91Bikes Logo" width={60} height={60} style={{ objectFit: "contain", height: 52, width: 52, borderRadius: 8 }} />
-          <div>
-            <div className="logo-text">+91Bikes</div>
-            <span className="logo-sub">Affordable Mobility For All</span>
-          </div>
+
         </a>
         <ul className="nav-links" id="navLinks">
           {NAV_ITEMS.map((item) => (
